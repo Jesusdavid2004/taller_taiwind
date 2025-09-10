@@ -205,27 +205,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ===== Mini video (puede ir después del search) ===== */}
-        <article className={`${card} order-5 md:order-5 xl:col-start-3`}>
-          <div className="p-4 flex items-center gap-4">
-            <div className="relative h-[92px] w-[160px] rounded-[16px] overflow-hidden">
-              <img
-                src="https://cw-gbl-gws-prod.azureedge.net/-/media/cw/apac/india/news/india-office-market.jpg?sc=0.375&rev=b2b9bc0c308c4c6bad897b4a7167a997&hash=323CC6252588EFCD27B7DFEF15CF383E"
-                alt="Film thumbnail"
-                className="absolute inset-0 h-full w-full object-cover"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-            <div className="flex-1">
-              <h3 className="text-[14px] font-semibold text-[#1F2937] leading-snug">An Inspiring Short Film</h3>
-              <p className="mt-1 text-[11px] text-[#94A3B8]">80,989</p>
-            </div>
-            <button className="h-10 w-10 rounded-full border border-[#E2E8F0] grid place-content-center" aria-label="Play">
-              ▶
-            </button>
-          </div>
-        </article>
 
         {/* ===== Alex (2 cols en md; 2 cols (2–3) en xl) ===== */}
         <section
@@ -259,4 +238,5 @@ export default function Home() {
     </main>
   );
 }
+
 
